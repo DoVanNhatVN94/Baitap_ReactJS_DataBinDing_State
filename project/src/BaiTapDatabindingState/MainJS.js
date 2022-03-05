@@ -102,20 +102,6 @@ export default class MainJS extends Component {
         <div className="row  justify-content-between">
           <div className="col-5 vglasses__top p-0 mb-3">
             <div className="vglasses__card">
-              {/* <div className="mb-2 text-right mt-2 mr-2">
-                <button
-                  className="btn btn-warning"
-                  onclick="removeGlasses(false)"
-                >
-                  Before
-                </button>
-                <button
-                  className="btn btn-warning"
-                  onclick="removeGlasses(true)"
-                >
-                  After
-                </button>
-              </div> */}
               <div className="vglasses__model" id="avatar">
                 <img src={sp.url} alt="" />
               </div>
@@ -133,9 +119,6 @@ export default class MainJS extends Component {
             </div>
             <div className="row" id="vglassesList">
               {this.renderGlass()}
-              {/* <button className="btn btn-white vglasses__items col-4">
-                <img src="./glassesImage/v1.png"/>
-               </button> */}
             </div>
           </div>
         </div>
